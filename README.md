@@ -1,6 +1,9 @@
 # AngularJS Demo with steps
 
 
+## _Step-1_
+
+
 ## Initializing package.json
 
 
@@ -32,3 +35,12 @@ Create bower.json to initialize project frameworks and libraries dependencies
 - **bower install angular-route**
 - **bower install bootstrap**
 - **bower install jquery**
+
+
+## _Step-2_
+
+
+## Starting http-server with node
+- Add "start": "http-server ./app -a localhost -p 8000 -c-1", in dependency.json
+- **npm start** to start http-server with node
+- Create **index.html** to initialize the static template
