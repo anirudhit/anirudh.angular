@@ -44,3 +44,14 @@ Create bower.json to initialize project frameworks and libraries dependencies
 - Add "start": "http-server ./app -a localhost -p 8000 -c-1", in dependency.json
 - **npm start** to start http-server with node
 - Create **index.html** to initialize the static template
+
+
+## _Step-3_
+
+
+## Creating angular template
+- Create **app.js** to create module and controller
+- Create angular module **angular.module('moduleName',[])** with module name **phonecatApp**, attach module name to **ng-app="phonecatApp"**
+- Create controller **PhoneListController**, attach controller name to body tag **ng-controller="PhoneListController"**
+- Inject **$scope** in the cotroller to create **phones** object to create dynamic template
+- Add **app.js** to the scripts tag in the **index.html**
