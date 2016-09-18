@@ -55,3 +55,12 @@ Create bower.json to initialize project frameworks and libraries dependencies
 - Create controller **PhoneListController**, attach controller name to body tag **ng-controller="PhoneListController"**
 - Inject **$scope** in the cotroller to create **phones** object to create dynamic template
 - Add **app.js** to the scripts tag in the **index.html**
+
+
+## _Step-4_
+
+
+## Creating angular component - Component object definition (COD)
+- Create **phone-list.component.js** and add component definition for the phone list in the template and controller of the component which creates an isolate scope
+- Delete html for the phone and ng-controller from the body tag. Add **<phone-list></phone-list>** in index.html
+- Add **phone-list.component.js** to the scripts tag in the **index.html**
