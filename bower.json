@@ -1,0 +1,20 @@
+{
+  "name": "anirudh.angular",
+  "version": "0.0.0",
+  "authors": [
+    "anirudhit <anirudhit@outlook.com>"
+  ],
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.5.8",
+    "angular-animate": "~1.5.8",
+    "angular-mocks": "~1.5.8",
+    "angular-resource": "~1.5.8",
+    "angular-route": "~1.5.8",
+    "jquery": "~3.1.0",
+    "bootstrap": "~3.3.7"
+  }
+}
